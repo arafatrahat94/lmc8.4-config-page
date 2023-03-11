@@ -48,7 +48,7 @@ body{
   z-index: 1;
   top: 0;
   right: 0;
-  background-image: url(images/dark.webp);
+  background-color: black;
   background-blend-mode: soft-light;
   overflow-x: hidden;
   transition: 0.9s;
@@ -62,12 +62,12 @@ body{
   font-size: 20px;
   display: block;
   transition: 0.5s;
-  color: #000000;
+  color: #ffffff;
   font-weight: 600;
 }
 
 .sidenav a:hover {
-  color: #00eeff;
+  color: #ff0000;
 }
 
 .sidenav .closebtn {
@@ -150,8 +150,9 @@ body{
   .method{
     color: rgb(0, 0, 0);
     font-weight: 600;
+    font-size: 0.83em;
     position: relative;
-    
+    line-height: 1.4;
   }
   .detail-image{
     margin: 25px 15px;
@@ -194,7 +195,7 @@ body{
     padding: 20px 10px;
     width: 250px;
     text-align: center;
-    /* border: 1px solid rgb(0, 0, 0); */
+    border: 1px solid rgb(0, 0, 0);
     border-radius: 20px;
     /* background-color: bisque; */
     box-shadow: 2px 3px 10px black;
@@ -220,6 +221,12 @@ body{
   /* picture sample and how to download */
   .two{
     padding: 10px 10px;
+    color: white;
+    background-image: linear-gradient(rgb(255, 0, 0), rgb(255, 102, 0));
+  }
+  .two:hover{
+    background-image: linear-gradient(black, black);
+    color: white;
   }
   /* social links */
   .social-link{
