@@ -111,7 +111,7 @@ body{
   }
   
   .active, .collapsible:hover {
-    background-image: url(../images/footer.webp);
+    background-image: linear-gradient(black, black);
     color: rgb(255, 0, 0);
     box-shadow: 2px 3px 10px rgb(255, 0, 0);
   }
