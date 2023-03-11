@@ -51,7 +51,7 @@ body{
     top: 0;
     right: 0;
     /* background: linear-gradient(to bottom left, #ff5050 0%, #ffcc00 100%); */
-    background-image: url('../images/dark.webp'), url('../images/gradient1.png');
+    background-color: #000000;
     background-blend-mode: soft-light;
     overflow-x: hidden;
     transition: 0.3s;
@@ -66,12 +66,11 @@ body{
     color: #ffffff;
     display: block;
     transition: 0.5s;
-    color: #000000;
     font-weight: 600;
   }
   
   .sidenav a:hover {
-    color: #00eeff;
+    color: #ff0000;
   }
   
   .sidenav .closebtn {
