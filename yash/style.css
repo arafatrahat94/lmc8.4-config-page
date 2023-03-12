@@ -503,7 +503,7 @@ body{
   height: 220px;
 }
 .picture{
-  padding: 20px 60px;
+  padding: 20px 40px;
   border: 2px dashed black;
   background-image: url(../white-painted-wall-texture-background.webp);
 }
