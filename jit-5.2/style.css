@@ -482,7 +482,7 @@ body{
   .link-container{
     display: flex;
     gap: 0;
-    transform: scale(.9);
+    transform: scale(.75);
     margin-bottom: -1em;
     position: relative;
   }
