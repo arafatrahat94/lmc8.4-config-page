@@ -296,7 +296,7 @@ body{
     background-color: #ffffff;
     border: 2px solid;
     border-radius: 20px;
-    padding: 40px 40px;
+    padding: 40px 100px;
     display: none;
     overflow: hidden;
     margin-top: 20px;
@@ -307,8 +307,8 @@ body{
     display: grid;
     grid-template-columns: repeat(4, 0.3fr);
     grid-template-rows: repeat(3, 1fr);
-    row-gap: 1.5em;
-    column-gap: 2.5em;
+    row-gap:1.5em;
+    column-gap: 5.5em;
   }
   .link-con{
     display: flex;
@@ -392,7 +392,7 @@ body{
   width: 15em;
   border-radius: 5px;
   text-align: left;
-  font-size: 15px;
+  font-size: 14px;
   border: none;
   margin-top: 0;
   margin-bottom: 0;
@@ -487,8 +487,9 @@ body{
     text-align: center;
     border: none;
     border-radius: 10px;
+    border-radius: 50px 0 0 50px;
     /* background-color: bisque; */
-    box-shadow: 2px 3px 10px black;
+    box-shadow: 2px 3px 10px rgb(105, 104, 104);
     text-decoration: none;
   }
   .two{
@@ -502,16 +503,18 @@ body{
   width: 80%;
   height: 220px;
 }
+
 .picture{
-  padding: 20px 40px;
-  border: 2px dashed black;
-  background-image: url(../white-painted-wall-texture-background.webp);
+padding: 30px 60px;
+border: none;
+box-shadow: 1px 1px 10px 1px rgb(202, 195, 195);
+background-image: url(../white-painted-wall-texture-background.webp);
 }
 .picture-container{
-  display: flex;
-  flex-direction: column;
-  row-gap: 1em;
-  column-gap: 1.5em;
+display: flex;
+flex-direction: column;
+row-gap: 1em;
+column-gap: 1.5em;
 }
   /* social link */
 .facebook{
