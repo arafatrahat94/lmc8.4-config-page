@@ -41,93 +41,17 @@ body{
     color: #ffffff;
 }
 
-.sidenav {
-    height: 100%;
-    width: 0;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    right: 0;
-    /* background: linear-gradient(to bottom left, #ff5050 0%, #ffcc00 100%); */
-    background-color: #000000;
-    background-blend-mode: soft-light;
-    overflow-x: hidden;
-    transition: 0.3s;
-    padding-top: 60px;
-  }
-  
-  .sidenav a {
-    text-align: end;
-    padding: 5px 20px 8px 8px;
-    text-decoration: none;
-    font-size: 20px;
-    color: #ffffff;
-    display: block;
-    transition: 0.5s;
-    font-weight: 600;
-  }
-  
-  .sidenav a:hover {
-    color: #ff0000;
-  }
-  
-  .sidenav .closebtn {
-    position: absolute;
-    top: 0;
-    left: 10px;
-    font-size: 36px;
-    margin-right: 50px;
-  }
   
   @media screen and (max-height: 450px) {
     .sidenav {padding-top: 1px;}
     .sidenav a {font-size: 18px;}
   }
 
-/* nav style */
-nav{
-    position: relative;
-    bottom: 25px;
-    display: flex;
-    justify-content: space-between;
-    padding-left: 10%;
-    padding-right: 10%;
-    margin-left: 10px;
-    margin-right: 10px;
-    border-bottom: 1px solid black;
-    border-radius: 20px;
-    box-shadow: 1px 5px 10px 0px;
-}
-nav > ul{
-    position: relative;
-    top: 5px;
-    display: flex;
-    align-items: center;
-}
 .icon{
     position: relative;
     top: 5px;
     display: flex;
     gap: 20px;
-}
-li{
-    list-style: none;
-    text-align: center; 
-    padding: 10px 20px;
-    border-radius: 10px;
-}
-ul li a{
-    color: black;
-    font-size: 16px;
-    font-weight: 600;
-    list-style: none;
-    text-decoration: none;
-}
-nav li:hover{
-    background-color: black;
-}
-nav li:hover > a{
-    color: red;
 }
 /* gcam list section */
 .gcam{
