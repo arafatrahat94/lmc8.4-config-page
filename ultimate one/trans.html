@@ -6,36 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../pass.css">
     <title>Download</title>
     <script src="https://kit.fontawesome.com/3f00815d7e.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <section class="nav-bar">
         <div class="left-button"><a rel="stylesheet" href="../index.html"><i class="back-button fa-solid  fa-chevron-left"></i>
-            <a rel="stylesheet" href="index.html"><i class="back-button fa-solid fa-language"></i></div>
+            <a rel="stylesheet" href=""><i class="back-button fa-solid fa-language"></i></div>
         <div id="mySidenav" class="sidenav">
             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-            <a href="https://arafatrahat94.github.io/gcam-home/">Home</a>
-            <a href="gcam/index.html">Gcam & Configs</a>
-            <a href="#">Top Photograpy</a>
-            <a href="#">Gcam Tips</a>
-            <a href="https://arafatrahat94.github.io/gcam-home/team/index.html">Team</a>
-            <a href="#">Services</a>
-          </div>
-          <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
-          <script class="open-nav">
-          function openNav() {
-            document.getElementById("mySidenav").style.width = "200px";
-          }
-          
-          function closeNav() {
-            document.getElementById("mySidenav").style.width = "0";
-          }
+
           </script>
     </section>
     <secttion class="tittle">
         <div class="conatiner-tittle">
-            <h1 class="main-tittle">🥇Ultimate One🥇</h1>
+            <h1 class="main-tittle">🥇Ultimate Boost🥇</h1>
         </div>
     </secttion>
     <section class="detail-conatin">
@@ -65,7 +51,7 @@
                                     •Use the XML.
 
                                     <p style="text-align: center;">✔️Note✔️</p>
-                                    <p style="text-align: center;">you can switch to different mode from the side pannel where you will see named nature,human,night,preset,iphone10 mode tap on the particular mode to switch in</p>
+                                    <p style="text-align: center;">This config is not copied from any source its maded by Gcam Universe.No one is allowed to copy this xml.You can use it for your use.</p>
                                 </span>
                             </div>
                         </p>
@@ -96,8 +82,40 @@
     </section>
     <br>
     <main>
+        
         <!-- download link and config link -->
         <section class="warning"><h1 style="text-align: center;font-size: 1em;">🚫Avoid changing the Config name AND UPLOADING CONFIG to your channel🚫</h1></section>
+                <!-- password link -->
+                <section class="pass-container">
+                    <div class="pass-show">
+                        <p class="Pass-tittle">🔐Enter Password To Unlock Config Link🔐</p>
+                        
+                        <p class="show-pass">
+                            <input id='password' type='password'/>
+                            <input type="checkbox" onclick="myFunction()">Show Password
+                        </p>
+                    </div>
+            
+                    <script>
+                        // for link password
+                function validatePass(){
+                    if(document.getElementById('password').value == '113311'){
+                        return true;
+                    }else{
+                        alert('wrong password!!');
+                        return false;
+                    }
+                }
+                function myFunction() {
+                var x = document.getElementById("password");
+                if (x.type === "password") {
+                    x.type = "text";
+                } else {
+                    x.type = "password";
+                }
+                }
+            </script>
+                </section>
         <section class="links">
             <div class="link-container sample-download">
                 <a href="https://devuploads.com/wbiu1e25d0hj">
@@ -105,7 +123,7 @@
                         <h2>Camera Download</h2>
                     </div>
                 </a>
-                <a href="https://drive.google.com/file/d/1w13n4Gl2qQkEnBrrb8g032WlJjYolbHv/view?usp=share_link">
+                <a href="https://drive.google.com/file/d/1w13n4Gl2qQkEnBrrb8g032WlJjYolbHv/view?usp=share_link" onclick="javascript:return validatePass()">
                     <div class="config camera">
                         <h2>Config Download</h2>
                     </div>
@@ -274,6 +292,8 @@
     <a href="https://www.youtube.com/channel/UCijyaBK_QlU8y3CKStjtK0A"><i class="youtube  social fa-brands fa-youtube"></i></a>
     <a href="https://m.me/j/AbYUYtvJICFWOR2F/"><i class="messenger  social fa-brands fa-facebook-messenger"></i></a>
 </section>
+<!-- report issue -->
+<h3 class="report-issue">Join Our Facebook Group Or Telegram <br> 🐜To Report Issue🐜</h3>
     </main>
     <footer>
         <section class="copy">

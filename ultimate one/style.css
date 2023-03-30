@@ -364,7 +364,10 @@ margin-right: 50px;
 .social:hover{
   color: rgb(4, 11, 17);
 }
-
+.report-issue{
+  text-align: center;
+  font-size: 20px;
+}
 /* copy right section */
 .copy{
 margin-top: 20px;
@@ -481,7 +484,7 @@ font-weight: 600;
 }
 /* wanrning style */
 .warning{
-margin-bottom: -6em;
+/* margin-bottom: -6em; */
 }
 
 /* link section */
@@ -489,7 +492,7 @@ margin-bottom: -6em;
   display: flex;
   gap: 0;
   transform: scale(.75);
-  margin-bottom: -1em;
+  margin-bottom: 0em;
   position: relative;
 }
 .sample-download{
@@ -537,18 +540,29 @@ row-gap: 1em;
 column-gap: 1.5em;
 }
 /* social link */
+.social-link{
+  display: flex;
+
+  justify-content: center;
+}
 .facebook{
-font-size: 2.5em;
+font-size: 2em;
 padding: 10px;
 color: rgba(9, 43, 168, 0.924);
 }
 .telegram{
-font-size: 2.5em;
+font-size: 2em;
 padding: 10px;
 color: rgba(6, 105, 255, 0.924);
 }
 .youtube, .messenger{
-font-size: 2.5em;
+font-size: 2em;
 padding: 10px;
+}
+.report-issue{
+  text-align: center;
+  font-size: 1em;
+  margin-left: 30px;
+  margin-right: 30px;
 }
 }
