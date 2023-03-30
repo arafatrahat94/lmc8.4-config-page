@@ -4,7 +4,8 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-
+margin-left: auto;
+margin-right: auto;
     width: 60%;
     padding: 20px 10px;
     padding-top: 5px;
@@ -15,12 +16,13 @@
     border: 0.5px solid rgb(109, 109, 109);
     padding: 10px 0;
     border-radius: 30px;
-    
+    text-align: center;
 }
 .show-pass{
     display: flex;
     align-items: center;
     gap: 5px;
+    color: #484646;
 }
 @media screen and (max-width: 576px) {
     .pass-container{
