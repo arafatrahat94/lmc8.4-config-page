@@ -1,0 +1,61 @@
+/* pass style */
+.pass-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+margin-left: auto;
+margin-right: auto;
+    width: 60%;
+    padding: 20px 10px;
+    padding-top: 5px;
+    border-radius: 30px; 
+    box-shadow: 1px 1px 20px 1px rgb(169, 164, 164);
+}
+.pass-container input{
+    border: 0.5px solid rgb(109, 109, 109);
+    padding: 10px 0;
+    border-radius: 30px;
+    text-align: center;
+}
+.show-pass{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: #484646;
+}
+@media screen and (max-width: 576px) {
+    .pass-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: -100px;
+        /* border: 1px solid; */
+        width: auto;
+        margin: 40px 20px 20px 20px;
+        padding: 20px 10px;
+        padding-top: 5px;
+        border-radius: 30px; 
+        box-shadow: 1px 1px 20px 1px rgb(169, 164, 164);
+    }
+    .pass-container input{
+        border: 0.5px solid #727272;
+        padding: 10px 0;
+        border-radius: 30px;
+        text-align: center;
+        color: #484646;
+    }
+    .Pass-tittle{
+        font-weight: 600;
+        text-align: center;
+        font-size: .8em;
+    }
+    .show-pass{
+        display: flex;
+        align-items: center;
+        font-size: .8em;
+        gap: 5px;
+        font-weight: 600;
+        color: #484646;
+    }
+}
